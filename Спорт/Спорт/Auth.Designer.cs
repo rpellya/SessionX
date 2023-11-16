@@ -37,6 +37,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label_captcha = new System.Windows.Forms.Label();
             this.checkBox_captcha = new System.Windows.Forms.CheckBox();
+            this.icon = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,6 +122,18 @@
             this.checkBox_captcha.UseVisualStyleBackColor = true;
             this.checkBox_captcha.CheckedChanged += new System.EventHandler(this.checkBox_captcha_CheckedChanged);
             // 
+            // icon
+            // 
+            this.icon.BackColor = System.Drawing.Color.White;
+            this.icon.BackgroundImage = global::Спорт.Properties.Resources.logo;
+            this.icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.icon.ForeColor = System.Drawing.Color.Transparent;
+            this.icon.Location = new System.Drawing.Point(919, 12);
+            this.icon.Name = "icon";
+            this.icon.Size = new System.Drawing.Size(170, 130);
+            this.icon.TabIndex = 15;
+            this.icon.UseVisualStyleBackColor = false;
+            // 
             // Auth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -128,6 +141,7 @@
             this.BackgroundImage = global::Спорт.Properties.Resources.G403T5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1101, 619);
+            this.Controls.Add(this.icon);
             this.Controls.Add(this.checkBox_captcha);
             this.Controls.Add(this.label_captcha);
             this.Controls.Add(this.button_log_in);
@@ -155,6 +169,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label_captcha;
         private System.Windows.Forms.CheckBox checkBox_captcha;
+        private System.Windows.Forms.Button icon;
     }
 }
 

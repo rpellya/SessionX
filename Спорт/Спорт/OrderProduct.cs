@@ -12,9 +12,16 @@ namespace Спорт
 {
     public partial class OrderProduct : Form
     {
+        //Order_form Order_Form = new Order_form();
         public OrderProduct()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Visible = false;
+            //Order_Form.ShowDialog();
         }
     }
 }
