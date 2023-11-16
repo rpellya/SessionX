@@ -25,4 +25,4 @@ Before you begin, make sure you have the following components installed:
 
 ## Authors
 
-* **Pellya Roman** - *Initial work* - [PurpleBooth](https://github.com/rpellya)
+* **Pellya Roman** - *Initial work* - (https://github.com/rpellya)

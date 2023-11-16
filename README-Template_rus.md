@@ -25,4 +25,4 @@
 
 ## Авторы
 
-* **Pellt Roman** - *Initial work* - [PurpleBooth](https://github.com/rpellya)
+* **Pellt Roman** - *Initial work* - (https://github.com/rpellya)
