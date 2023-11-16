@@ -1,0 +1,12 @@
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\bin\Debug\Спорт.exe.config
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\bin\Debug\Спорт.exe
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\bin\Debug\Спорт.pdb
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.csproj.AssemblyReference.cache
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.csproj.SuggestedBindingRedirects.cache
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.Auth.resources
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.Properties.Resources.resources
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.csproj.GenerateResource.cache
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.csproj.CoreCompileInputs.cache
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.exe
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.pdb
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.Orders.resources
