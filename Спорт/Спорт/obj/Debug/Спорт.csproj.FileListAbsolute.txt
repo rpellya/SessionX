@@ -9,4 +9,5 @@ C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Сп�
 C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.csproj.CoreCompileInputs.cache
 C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.exe
 C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.pdb
-C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.Orders.resources
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.Order_form.resources
+C:\Users\pelki\Desktop\Экзамен\Сессия 1\Спорт\Спорт\Спорт\obj\Debug\Спорт.OrderProduct.resources

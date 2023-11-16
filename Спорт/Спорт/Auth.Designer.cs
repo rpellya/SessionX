@@ -35,6 +35,8 @@
             this.login = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label_captcha = new System.Windows.Forms.Label();
+            this.checkBox_captcha = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,12 +44,13 @@
             // 
             this.button_log_in.BackColor = System.Drawing.Color.White;
             this.button_log_in.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.button_log_in.Location = new System.Drawing.Point(807, 417);
+            this.button_log_in.Location = new System.Drawing.Point(807, 455);
             this.button_log_in.Name = "button_log_in";
             this.button_log_in.Size = new System.Drawing.Size(218, 60);
             this.button_log_in.TabIndex = 10;
             this.button_log_in.Text = "Log in";
             this.button_log_in.UseVisualStyleBackColor = false;
+            this.button_log_in.Click += new System.EventHandler(this.button_log_in_Click);
             // 
             // password
             // 
@@ -85,7 +88,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(182, 20);
             this.textBox1.TabIndex = 6;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox1
             // 
@@ -98,6 +100,27 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // label_captcha
+            // 
+            this.label_captcha.AutoSize = true;
+            this.label_captcha.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label_captcha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_captcha.Location = new System.Drawing.Point(838, 404);
+            this.label_captcha.Name = "label_captcha";
+            this.label_captcha.Size = new System.Drawing.Size(92, 25);
+            this.label_captcha.TabIndex = 13;
+            this.label_captcha.Text = "Captcha";
+            // 
+            // checkBox_captcha
+            // 
+            this.checkBox_captcha.AutoSize = true;
+            this.checkBox_captcha.Location = new System.Drawing.Point(993, 413);
+            this.checkBox_captcha.Name = "checkBox_captcha";
+            this.checkBox_captcha.Size = new System.Drawing.Size(15, 14);
+            this.checkBox_captcha.TabIndex = 14;
+            this.checkBox_captcha.UseVisualStyleBackColor = true;
+            this.checkBox_captcha.CheckedChanged += new System.EventHandler(this.checkBox_captcha_CheckedChanged);
+            // 
             // Auth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -105,6 +128,8 @@
             this.BackgroundImage = global::Спорт.Properties.Resources.G403T5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1101, 619);
+            this.Controls.Add(this.checkBox_captcha);
+            this.Controls.Add(this.label_captcha);
             this.Controls.Add(this.button_log_in);
             this.Controls.Add(this.password);
             this.Controls.Add(this.textBox2);
@@ -128,6 +153,8 @@
         private System.Windows.Forms.Label login;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label_captcha;
+        private System.Windows.Forms.CheckBox checkBox_captcha;
     }
 }
 

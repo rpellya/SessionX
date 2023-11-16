@@ -46,25 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Auth.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Auth.Designer.cs">
+      <DependentUpon>Auth.cs</DependentUpon>
     </Compile>
-    <Compile Include="Orders.cs">
+    <Compile Include="Database.cs" />
+    <Compile Include="OrderProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Orders.Designer.cs">
-      <DependentUpon>Orders.cs</DependentUpon>
+    <Compile Include="OrderProduct.Designer.cs">
+      <DependentUpon>OrderProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order_form.Designer.cs">
+      <DependentUpon>Order_form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Auth.resx">
+      <DependentUpon>Auth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Orders.resx">
-      <DependentUpon>Orders.cs</DependentUpon>
+    <EmbeddedResource Include="OrderProduct.resx">
+      <DependentUpon>OrderProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order_form.resx">
+      <DependentUpon>Order_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,6 +101,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\G403T5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\А112Т4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

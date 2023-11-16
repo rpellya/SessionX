@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Спорт
 {
-    public partial class Orders : Form
+    public partial class OrderProduct : Form
     {
-        public Orders()
+        public OrderProduct()
         {
             InitializeComponent();
         }
